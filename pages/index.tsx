@@ -14,7 +14,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 export default function Home() {
-  const [ShowElement, setShowElement] = useState(true);
+  const [ShowElement, setShowElement] = useState(false);
   const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
   const [ShowMe, setShowMe] = useState(false);
   // context Variable to clearInterval
@@ -35,11 +35,11 @@ export default function Home() {
     }
     setTimeout(() => {
       setShowElement(true);
-    }, 0);
+    }, 4500);
 
     setTimeout(() => {
       setShowThisCantBeReached(false);
-    }, 0);
+    }, 5400);
     // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
     setTimeout(() => {
       setShowElement(false);
@@ -57,7 +57,7 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
+    title: "Natnael Engeda - Software Developer",
     description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
@@ -83,7 +83,7 @@ export default function Home() {
         <meta name="twitter:image" content={meta.image} />
       </Head>
       <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
-        {/* {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>} */}
+        {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
         {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
         <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
         <MyName finishedLoading={context.sharedState.finishedLoading} />
