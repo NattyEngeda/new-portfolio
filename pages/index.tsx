@@ -15,7 +15,7 @@ import "aos/dist/aos.css";
 import Head from "next/head";
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
-  const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
+  const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(false);
   const [ShowMe, setShowMe] = useState(false);
   // context Variable to clearInterval
   const context = useContext(AppContext);
@@ -58,7 +58,7 @@ export default function Home() {
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Natnael Engeda - Software Developer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
+    description: `I've been working on Software development for 1 year1 straight. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
