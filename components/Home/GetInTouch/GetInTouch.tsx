@@ -21,9 +21,10 @@ export default function GetInTouch() {
         Get In Touch
       </span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-        Although I&apos;m currently looking for any new opportunities, my inbox
+        {/* Although I&apos;m currently looking for any new opportunities, my inbox
         is always open. Whether you have a question or just want to say hi, I&apos;ll
-        try my best to get back to you!
+        try my best to get back to you! */}
+        Anything that is achievable my human beings is achievable by me. If you want Websites, System Softwares, Desktop Applications, Mobile Applications and anything related to computer science, I&apos;m here for you.
       </p>
       <div className="pt-4">
         <a href="mailto:abdellatif@anaflous.com" target={"_blank"} rel="noreferrer">
@@ -31,7 +32,7 @@ export default function GetInTouch() {
             className="font-mono text-sm text-AAsecondary border-AAsecondary 
                             px-8 py-4 border-[1.5px] rounded "
           >
-            Say Hello
+            Send a Message
           </button>
         </a>
       </div>
