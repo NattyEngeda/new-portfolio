@@ -2,6 +2,8 @@ import "../styles/globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import AppContext from "../components/AppContextFolder/AppContext";
 import { useRef, useState } from "react";
+import { ModalProvider } from 'styled-react-modal';
+
 
 function MyApp({ Component, pageProps }) {
   const timerCookie = useRef(null);
@@ -14,8 +16,8 @@ function MyApp({ Component, pageProps }) {
         scrolling: null,
         scrollSizeY: null,
       },
-      Scrolling:{
-        IntervalEvent:null
+      Scrolling: {
+        IntervalEvent: null
       }
     },
     userdata: {
@@ -31,7 +33,9 @@ function MyApp({ Component, pageProps }) {
   });
   return (
     <AppContext.Provider value={{ sharedState, setSharedState }}>
-      <Component {...pageProps} />
+      <ModalProvider>
+        <Component {...pageProps} />
+      </ModalProvider>
       <Analytics />
     </AppContext.Provider>
   );
