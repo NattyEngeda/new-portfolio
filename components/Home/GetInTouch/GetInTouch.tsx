@@ -1,5 +1,6 @@
 import React from "react";
 import ArrowIcon from "../../Icons/ArrowIcon";
+import Mmodal from 'styled-react-modal'
 export default function GetInTouch() {
   return (
     <div id="GetInTouchSection" data-aos="fade-up" className="flex flex-col space-y-4 w-full h-96 items-center bg-AAprimary">
