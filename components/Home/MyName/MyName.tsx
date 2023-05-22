@@ -54,7 +54,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a <span className="text-AAsecondary">software developer</span> skilled in problem-solving and specializing in building
+        I&apos;m a <span className="text-AAsecondary">Software Developer</span> skilled in problem-solving and specializing in building
         <br className="md:block hidden" /> exceptional system softwares and digital experiences. Currently.{" "}
         <br className="md:block hidden" />
         I&apos;m focused on building and deploying <span className="text-AAsecondary">Mobile Applications</span> using Flutter.
