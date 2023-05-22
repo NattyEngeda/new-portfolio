@@ -14,7 +14,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 export default function Home() {
-  const [ShowElement, setShowElement] = useState(false);
+  const [ShowElement, setShowElement] = useState(true);
   const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(false);
   const [ShowMe, setShowMe] = useState(false);
   // context Variable to clearInterval
@@ -35,7 +35,7 @@ export default function Home() {
     }
     setTimeout(() => {
       setShowElement(true);
-    }, 4500);
+    }, 1500);
 
     setTimeout(() => {
       setShowThisCantBeReached(false);
@@ -46,19 +46,17 @@ export default function Home() {
       setShowMe(true);
       context.sharedState.finishedLoading = true;
       context.setSharedState(context.sharedState);
-    }, 10400);
+    }, 400);
   }, [context, context.sharedState]);
 
   useEffect(() => {
     Aos.init({ duration: 2000, once: true });
   }, []);
 
-
-
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Natnael Engeda - Software Developer",
-    description: `I've been working on Software development for 1 year1 straight. Get in touch with me to know more.`,
+    description: `I've been working on Software development for 1 year straight. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
@@ -72,7 +70,7 @@ export default function Home() {
         <meta property="og:url" content={`https://anaflous.com`} />
         <link rel="canonical" href={`https://anaflous.com`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Natnael Engeda" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
@@ -83,7 +81,7 @@ export default function Home() {
         <meta name="twitter:image" content={meta.image} />
       </Head>
       <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
-        {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
+        {/* {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>} */}
         {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
         <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
         <MyName finishedLoading={context.sharedState.finishedLoading} />
