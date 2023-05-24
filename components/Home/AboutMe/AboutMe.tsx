@@ -32,7 +32,7 @@ export default function AboutMe(props) {
                 Hello, my name is Natnael Engeda, and I am a Computer Science graduate specializing in
                 Website Development and Mobile Development. With two years of valuable experience in software development,
                 I have honed my skills and expertise in creating exceptional digital solutions. My educational journey culminated
-                at<span className="text-AAsecondary"> St. Mary's University,</span> where I acquired a strong foundation in computer science principles.
+                at<span className="text-AAsecondary"> St. Marys University,</span> where I acquired a strong foundation in computer science principles.
                 Continuously driven by the desire to stay at the forefront of technological advancements, I am excited to embark
                 on new challenges and contribute to the ever-evolving tech industry.
               </span>
