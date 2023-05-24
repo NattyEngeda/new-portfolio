@@ -15,8 +15,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.4, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.4, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 5.4, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 5.4, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-AAsecondary font-mono"
       >
@@ -26,8 +26,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.5, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.5, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 5.5, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 5.5, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
@@ -37,8 +37,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 5.6, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 5.6, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
@@ -49,12 +49,12 @@ export default function MyName(props: { finishedLoading: boolean }) {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 5.7, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 5.7, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a <span className="text-AAsecondary">software developer</span> skilled in problem-solving and specializing in building
+        I&apos;m a <span className="text-AAsecondary">Software Developer</span> skilled in problem-solving and specializing in building
         <br className="md:block hidden" /> exceptional system softwares and digital experiences. Currently.{" "}
         <br className="md:block hidden" />
         I&apos;m focused on building and deploying <span className="text-AAsecondary">Mobile Applications</span> using Flutter.
@@ -63,8 +63,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 5.8, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 5.8, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="mt-12"
       >

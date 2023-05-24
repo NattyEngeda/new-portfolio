@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Solidity", "Next.js","Ether.js","JavaScript (ES6+)", "Tailwind CSS"],
-    ["Hardhat", "Node.js","react-moralis", "TypeScript", "Framer Motion"],
+    ["ReactJS", "Next.js", "TypeScript", "JavaScript ", "Tailwind CSS"],
+    ["Laravel", "Node.js", "Flutter", "Vuejs", "Firebase"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -29,22 +29,24 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400  tracking-wide">
-                Hello! My name is Abdellatif and I enjoy solving problems and creating codes that live on the internet.
-                My interest in computer science started back in 2009 when I decided to try learning{" "}
-                <span className="text-AAsecondary">Ethical Hacking</span> using BackTrack OS — it turns out programming
-                skills are essential to achieve that, my journey with programming started from that time!
+                Hello, my name is Natnael Engeda, and I am a Computer Science graduate specializing in
+                Website Development and Mobile Development. With two years of valuable experience in software development,
+                I have honed my skills and expertise in creating exceptional digital solutions. My educational journey culminated
+                at<span className="text-AAsecondary"> St. Mary's University,</span> where I acquired a strong foundation in computer science principles.
+                Continuously driven by the desire to stay at the forefront of technological advancements, I am excited to embark
+                on new challenges and contribute to the ever-evolving tech industry.
               </span>
             </div>
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
                 Fast-forward to today, I&apos;ve had the privilege of working at
-                <span className="text-AAsecondary"> a huge manufacturing company</span>,
-                <span className="text-AAsecondary"> a start-up</span>,{" "}
-                <span className="text-AAsecondary">export-import companies</span>, also 
-                <span className="text-AAsecondary"> freelancing</span> and recently as Lead for the{" "}
-                <span className="text-AAsecondary">Google Developer Student club</span>. Experienced in Desktop & Web
-                Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
-                <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
+                <span className="text-AAsecondary"> a tech and advertising company</span>,
+                {/* <span className="text-AAsecondary"> a start-up</span>,{" "} */}
+                <span className="text-AAsecondary"> some governmental organizations</span>, also
+                <span className="text-AAsecondary"> freelancing</span>
+                . Experienced in Desktop & Web
+                Development, lately with Python Programming. My main focus these days is creating and testing{" "}
+                <span className="text-AAsecondary">Mobile Application</span> with Flutter.
               </span>
             </div>
 
